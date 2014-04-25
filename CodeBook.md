@@ -54,81 +54,82 @@ on the measurements themselves.
 ### Variables
 
 There are 68 variables - activity, subject.id, and 66 measurement variables.  
-The measurement variables are named according to the following format:
+The measurement variables are named according to the following format:  
+
 1.  Begins with f or t depending on whether they were taken in the frequency  
-	or time domains.
+	or time domains.  
 2.  'Body' or 'Gravity' depending on whether the measurement is due to  
-	gravitational acceleration or bodily motion.
-3.  An abbreviation of the type of measurement.
-4.  'mean' or 'std'
-5.	The axis of measurement, if applicable.
+	gravitational acceleration or bodily motion.  
+3.  An abbreviation of the type of measurement.  
+4.  'mean' or 'std'  
+5.	The axis of measurement, if applicable.  
 
 activity - WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING,  
-or LAYING
-subject.id - integer code to differentiate subjects, 1-30
-tBodyAcc.mean.X
-tBodyAcc.mean.Y
-tBodyAcc.mean.Z
-tBodyAcc.std.X
-tBodyAcc.std.Y
-tBodyAcc.std.Z
-tGravityAcc.mean.X
-tGravityAcc.mean.Y
-tGravityAcc.mean.Z
-tGravityAcc.std.X
-tGravityAcc.std.Y
-tGravityAcc.std.Z
-tBodyAccJerk.mean.X
-tBodyAccJerk.mean.Y
-tBodyAccJerk.mean.Z
-tBodyAccJerk.std.X
-tBodyAccJerk.std.Y
-tBodyAccJerk.std.Z
-tBodyGyro.mean.X
-tBodyGyro.mean.Y
-tBodyGyro.mean.Z
-tBodyGyro.std.X
-tBodyGyro.std.Y
-tBodyGyro.std.Z
-tBodyGyroJerk.mean.X
-tBodyGyroJerk.mean.Y
-tBodyGyroJerk.mean.Z
-tBodyGyroJerk.std.X
-tBodyGyroJerk.std.Y
-tBodyGyroJerk.std.Z
-tBodyAccMag.mean
-tBodyAccMag.std
-tGravityAccMag.mean
-tGravityAccMag.std
-tBodyAccJerkMag.mean
-tBodyAccJerkMag.std
-tBodyGyroMag.mean
-tBodyGyroMag.std
-tBodyGyroJerkMag.mean
-tBodyGyroJerkMag.std
-fBodyAcc.mean.X
-fBodyAcc.mean.Y
-fBodyAcc.mean.Z
-fBodyAcc.std.X
-fBodyAcc.std.Y
-fBodyAcc.std.Z
-fBodyAccJerk.mean.X
-fBodyAccJerk.mean.Y
-fBodyAccJerk.mean.Z
-fBodyAccJerk.std.X
-fBodyAccJerk.std.Y
-fBodyAccJerk.std.Z
-fBodyGyro.mean.X
-fBodyGyro.mean.Y
-fBodyGyro.mean.Z
-fBodyGyro.std.X
-fBodyGyro.std.Y
-fBodyGyro.std.Z
-fBodyAccMag.mean
-fBodyAccMag.std
-fBodyBodyAccJerkMag.mean
-fBodyBodyAccJerkMag.std
-fBodyBodyGyroMag.mean
-fBodyBodyGyroMag.std
-fBodyBodyGyroJerkMag.mean
-fBodyBodyGyroJerkMag.std
+or LAYING  
+subject.id - integer code to differentiate subjects, 1-30  
+tBodyAcc.mean.X  
+tBodyAcc.mean.Y  
+tBodyAcc.mean.Z  
+tBodyAcc.std.X  
+tBodyAcc.std.Y  
+tBodyAcc.std.Z  
+tGravityAcc.mean.X  
+tGravityAcc.mean.Y  
+tGravityAcc.mean.Z  
+tGravityAcc.std.X  
+tGravityAcc.std.Y  
+tGravityAcc.std.Z  
+tBodyAccJerk.mean.X  
+tBodyAccJerk.mean.Y  
+tBodyAccJerk.mean.Z  
+tBodyAccJerk.std.X  
+tBodyAccJerk.std.Y  
+tBodyAccJerk.std.Z  
+tBodyGyro.mean.X  
+tBodyGyro.mean.Y  
+tBodyGyro.mean.Z  
+tBodyGyro.std.X  
+tBodyGyro.std.Y  
+tBodyGyro.std.Z  
+tBodyGyroJerk.mean.X  
+tBodyGyroJerk.mean.Y  
+tBodyGyroJerk.mean.Z  
+tBodyGyroJerk.std.X  
+tBodyGyroJerk.std.Y  
+tBodyGyroJerk.std.Z  
+tBodyAccMag.mean  
+tBodyAccMag.std  
+tGravityAccMag.mean  
+tGravityAccMag.std  
+tBodyAccJerkMag.mean  
+tBodyAccJerkMag.std  
+tBodyGyroMag.mean  
+tBodyGyroMag.std  
+tBodyGyroJerkMag.mean  
+tBodyGyroJerkMag.std  
+fBodyAcc.mean.X  
+fBodyAcc.mean.Y  
+fBodyAcc.mean.Z  
+fBodyAcc.std.X  
+fBodyAcc.std.Y  
+fBodyAcc.std.Z  
+fBodyAccJerk.mean.X  
+fBodyAccJerk.mean.Y  
+fBodyAccJerk.mean.Z  
+fBodyAccJerk.std.X  
+fBodyAccJerk.std.Y  
+fBodyAccJerk.std.Z  
+fBodyGyro.mean.X  
+fBodyGyro.mean.Y  
+fBodyGyro.mean.Z  
+fBodyGyro.std.X  
+fBodyGyro.std.Y  
+fBodyGyro.std.Z  
+fBodyAccMag.mean  
+fBodyAccMag.std  
+fBodyBodyAccJerkMag.mean  
+fBodyBodyAccJerkMag.std  
+fBodyBodyGyroMag.mean  
+fBodyBodyGyroMag.std  
+fBodyBodyGyroJerkMag.mean  
+fBodyBodyGyroJerkMag.std  
